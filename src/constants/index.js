@@ -10,9 +10,9 @@ export const myProjects = [
       ". Ensured reports and diagnoses are generated only after a minimum of 5 sessions to maintain reliability.",
       ". Produced structured reports summarizing emotional analysis, observations, and mood improvements.",
     ],
-    href: "",
+    href: "https://serenio-ai.vercel.app/",
     logo: "",
-    image: "",
+    image: "/assets/projects/serenio.jpeg",
     tags: [
       {
         id: 1,
@@ -79,9 +79,9 @@ export const myProjects = [
       ". Provided adoption application submission for users and review/approval tracking for administrators.",
       ". Tracked adoption application progress from submission to final decision to ensure transparency.",
     ],
-    href: "",
+    href: "http://petpal.infinityfreeapp.com/index.php",
     logo: "",
-    image: "",
+    image: "/assets/projects/petpal.jpeg",
     tags: [
       {
         id: 1,
@@ -126,9 +126,9 @@ export const myProjects = [
       ". Performed unit testing with Jest and Mocha/Chai to ensure reliability.",
       ". Integrated SonarQube for continuous code quality analysis.",
     ],
-    href: "",
+    href: "https://github.com/laiba-javaid/Notes-Management-System_laiba-javaid-mern-10pshine",
     logo: "",
-    image: "",
+    image: "/assets/projects/notes.jpeg",
     tags: [
       {
         id: 1,
@@ -183,9 +183,9 @@ export const myProjects = [
       "Job Seeker Features: Profile/resume management, job search & filtering, application tracking.",
       "Company Features: Company profile management, job posting & application review.",
     ],
-    href: "",
+    href: "https://github.com/laiba-javaid/job-portal-frontend",
     logo: "",
-    image: "",
+    image: "/assets/projects/job-portal.jpeg",
     tags: [
       {
         id: 1,
@@ -231,9 +231,9 @@ export const myProjects = [
       ". Implemented error handling, vector persistence, and optimized retriever settings for improved accuracy.",
       ". Processed over 8,000+ document chunks to build a knowledge base covering all seven Harry Potter books.",
     ],
-    href: "",
+    href: "https://github.com/laiba-javaid/rag-harry-potter",
     logo: "",
-    image: "",
+    image: "/assets/projects/rag-harry-potter.jpeg",
     tags: [
       {
         id: 1,
@@ -284,9 +284,9 @@ export const myProjects = [
       "Developed a PyQt5 GUI for user-friendly operation.",
       "Designed for offline/local resource use, making it lightweight and system-friendly.",
     ],
-    href: "",
+    href: "https://github.com/laiba-javaid/automated-video-generation",
     logo: "",
-    image: "",
+    image: "/assets/projects/video-generation.jpeg",
     tags: [
       {
         id: 1,
@@ -336,9 +336,9 @@ export const myProjects = [
       "Designed a modern UI/UX with TailwindCSS, Aceternity UI, and Magic UI for responsive, professional styling.",
       "Added a working contact form using EmailJS for direct communication.",  
     ],
-    href: "",
+    href: "https://github.com/laiba-javaid/Portfolio",
     logo: "",
-    image: "",
+    image: "/assets/projects/portfolio.jpeg",
     tags: [
       {
         id: 1,
@@ -393,17 +393,17 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "Github",
-    href: "",
+    href: "https://github.com/laiba-javaid",
     icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
-    href: "",
+    href: "https://www.linkedin.com/in/laiba-javaid1/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "",
+    href: "https://www.instagram.com/_developerdiaries/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
