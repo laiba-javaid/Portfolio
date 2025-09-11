@@ -14,27 +14,37 @@ const Project = ({
   return (
     <>
       <div
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        className="flex flex-col items-start justify-between py-6 space-y-4 sm:py-10 sm:flex-row sm:items-center sm:space-y-0"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
       >
-        <div>
-          <p className="text-2xl">{title}</p>
-          <div className="flex gap-5 mt-2 text-sand">
+        {/* Project info section */}
+        <div className="w-full sm:w-auto">
+          <p className="text-xl sm:text-2xl font-medium mb-2">{title}</p>
+          <div className="flex flex-wrap gap-2 sm:gap-5 text-sm sm:text-base text-sand">
             {tags.map((tag) => (
-              <span key={tag.id}>{tag.name}</span>
+              <span 
+                key={tag.id}
+                className="px-2 py-1 bg-neutral-800 rounded-md sm:px-0 sm:py-0 sm:bg-transparent sm:rounded-none"
+              >
+                {tag.name}
+              </span>
             ))}
           </div>
         </div>
+        
+        {/* Read more button */}
         <button
           onClick={() => setIsHidden(true)}
-          className="flex items-center gap-1 cursor-pointer hover-animation"
+          className="flex items-center gap-2 px-4 py-2 text-sm sm:text-base cursor-pointer hover-animation bg-neutral-800 rounded-md sm:bg-transparent sm:px-0 sm:py-0 sm:rounded-none whitespace-nowrap"
         >
           Read More
-          <img src="assets/arrow-right.svg" className="w-5" />
+          <img src="assets/arrow-right.svg" className="w-4 sm:w-5" />
         </button>
       </div>
-      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-auto" />
+      
+      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
+      
       {isHidden && (
         <ProjectDetails
           title={title}
