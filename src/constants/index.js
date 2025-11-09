@@ -69,6 +69,65 @@ export const myProjects = [
   },
   {
     id: 2,
+    "title": "Full Stack AI Content Creator Platform",
+    "description": "Full Stack AI Content Platform CMS with rich text editor, AI-powered content creation, image/video upload, and user management.",
+    "subDescription": [
+    ". Built with Next.js 15, Tailwind CSS, and Shadcn UI for modern responsive design.",
+    ". Implemented authentication and user management using Clerk.",
+    ". Integrated Convex backend for real-time data and database storage.",
+    ". Created rich text editor with React Quill and AI-assisted content generation.",
+    ". Added ImageKit integration for image and video uploads with transformations.",
+    ". Dashboard analytics and posts feed for users."
+  ],
+  "href": "https://ai-creatorr.vercel.app/",
+  "logo": "",
+  "image": "/assets/projects/ai-creator.jpeg",
+  "tags": [
+    {
+      "id": 1,
+      "name": "Next.js",
+      "path": "/assets/logos/nextjs.svg"
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "path": "/assets/logos/react.svg"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "path": "/assets/logos/javascript.svg"
+    },
+    {
+      "id": 4,
+      "name": "TailwindCSS",
+      "path": "/assets/logos/tailwindcss.svg"
+    },
+    {
+      "id": 5,
+      "name": "Shadcn UI",
+      "path": "/assets/logos/shadcn.png"
+    },
+    {
+      "id": 6,
+      "name": "React Quill",
+      "path": "/assets/logos/react-quill.svg"
+    },
+    {
+      "id": 7,
+      "name": "ImageKit",
+      "path": "/assets/logos/imagekit.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Convex",
+      "path": "/assets/logos/convex.webp"
+    }
+  ]
+
+  },
+  {
+    id: 2,
     title: "PetPal: Pet Adoption Platform",
     description:
       "Developed a web platform for pet adoption, enabling users to search and apply for pets while allowing admins to manage listings and applications efficiently.",
@@ -79,7 +138,7 @@ export const myProjects = [
       ". Provided adoption application submission for users and review/approval tracking for administrators.",
       ". Tracked adoption application progress from submission to final decision to ensure transparency.",
     ],
-    href: "http://petpal.infinityfreeapp.com/index.php",
+    href: "https://github.com/laiba-javaid/petpal-pet-adoption-platform",
     logo: "",
     image: "/assets/projects/petpal.jpeg",
     tags: [

@@ -44,6 +44,7 @@ const Projects = () => {
           style={{ x: springX, y: springY }}
         />
       )}
+       
     </section>
   );
 };
